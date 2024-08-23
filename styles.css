@@ -1,0 +1,73 @@
+/* StyleSheet for Week 1 Exercise */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #cfb991;
+    color: white;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#purdueCarousel {
+    width: 800px;
+    margin: 0 20%;
+    /* height: 400px; */
+    margin: auto;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100vh; 
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration:solid;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 3;
+    padding: 1em;
+}
+
+aside {
+    background-color: #eae1c3;
+    height: 100%;
+    border: solid black 5px;
+    text-align: center;
+}
