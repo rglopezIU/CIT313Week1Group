@@ -21,86 +21,6 @@
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
-  
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-  top: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-</style>
-    <script></script>
-  </head>
-  <body>
-        <!-- Nav Bar & Logo-->
-        <header>
-          <nav>
-              <ul>
-              <li><div class="logo">
-                  <img src="images/purduepete.jpg" alt="Purdue Pete Logo" />
-              </div></li>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="shop.html">Shop</a></li>
-              <li><a href="request.html">Request</a></li>
-              </ul>
-          </nav>
-          </header>
-    <body style="text-align:center;">
-      <div class="wrapper">
-        <div class="item">
-          <img
-            class="d-block w-100"
-            src="images/purduehandbook1.jpg"
-            alt="Purdue Campus overhead"
-          />
-      </div>
-      <div class="item">
-        <img
-          class="d-block w-100"
-          src="images/purduehandbook2.jpg"
-          alt="Purdue Campus overhead"
-        />
-    </div>
-    <div class="item">
-      <img
-        class="tooltip"
-        src="images/purduehandbook3.jpg"
-        alt="Purdue Campus overhead"
-      />
-  </div>      
-      <div class="tooltip">Hover over me
-        <span class="tooltiptext">Tooltip text</span>
-      </div>
-  </body>
-</html>
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shop</title>
-    <link rel="stylesheet" href="styles.css" />
-    <style>
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
 
   /* Position the tooltip */
   position: absolute;
@@ -165,7 +85,8 @@
       </div>
   </div>
 </div>    
-      <h2>HTML Forms</h2>
+<aside>    
+<h2>HTML Forms</h2>
 
         <label for="fname">First name:</label>
         <input type="text" id="fname" name="fname" value="John">
@@ -184,5 +105,8 @@
         <input type="submit" value="Submit">
 
       <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
-  </body>
+  
+</aside>  
+
+    </body>
 </html>
