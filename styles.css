@@ -71,3 +71,9 @@ aside {
     border: solid black 5px;
     text-align: center;
 }
+
+img[src*="purduehandbook"] {
+    width: 200px; /* Set the width */
+    height: 300px; /* Maintain the aspect ratio */
+  }
+  
